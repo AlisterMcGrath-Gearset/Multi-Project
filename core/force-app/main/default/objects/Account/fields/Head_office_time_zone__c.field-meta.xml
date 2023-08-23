@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Head_office_time_zone__c</fullName>
+    <description>A field to indicate the head office time zone.</description>
+    <externalId>false</externalId>
+    <label>Head office time zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Time_Zone_Abbreviations</valueSetName>
+    </valueSet>
+</CustomField>

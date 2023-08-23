@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gearset_renewal</fullName>
+    <active>true</active>
+    <description>A record type for subscription renewals.</description>
+    <label>Gearset renewal</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerPriority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Head_office_time_zone__c</picklist>
+        <values>
+            <fullName>ACDT%09Australian Central Daylight Saving Time%09UTC%2B10%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACST%09Australian Central Standard Time%09UTC%2B09%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACT%09ASEAN Common Time %28proposed%29%09UTC%2B08%3A00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACT%09Acre Time%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACWST%09Australian Central Western Standard Time %28unofficial%29%09UTC%2B08%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADT%09Atlantic Daylight Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEDT%09Australian Eastern Daylight Saving Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEST%09Australian Eastern Standard Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AET%09Australian Eastern Time%09UTC%2B10%2FUTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AFT%09Afghanistan Time%09UTC%2B04%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AKDT%09Alaska Daylight Time%09UTC%E2%88%9208</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AKST%09Alaska Standard Time%09UTC%E2%88%9209</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALMT%09Alma-Ata Time%5B1%5D%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMST%09Amazon Summer Time %28Brazil%29%5B2%5D%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMT%09Amazon Time %28Brazil%29%5B3%5D%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMT%09Armenia Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANAT%09Anadyr Time%5B4%5D%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AQTT%09Aqtobe Time%5B5%5D%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ART%09Argentina Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AST%09Arabia Standard Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AST%09Atlantic Standard Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWST%09Australian Western Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZOST%09Azores Summer Time%09UTC%C2%B100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZOT%09Azores Standard Time%09UTC%E2%88%9201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZT%09Azerbaijan Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOT%09British Indian Ocean Time%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIT%09Baker Island Time%09UTC%E2%88%9212</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNT%09Brunei Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOT%09Bolivia Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRST%09Brasília Summer Time%09UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRT%09Brasília Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BST%09Bangladesh Standard Time%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BST%09Bougainville Standard Time%5B6%5D%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BST%09British Summer Time %28British Standard Time from Feb 1968 to Oct 1971%29%09UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTT%09Bhutan Time%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAT%09Central Africa Time%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCT%09Cocos Islands Time%09UTC%2B06%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDT%09Central Daylight Time %28North America%29%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDT%09Cuba Daylight Time%5B7%5D%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEST%09Central European Summer Time%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CET%09Central European Time%09UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHADT%09Chatham Daylight Time%09UTC%2B13%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAST%09Chatham Standard Time%09UTC%2B12%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHOST%09Choibalsan Summer Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHOT%09Choibalsan Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHST%09Chamorro Standard Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHUT%09Chuuk Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIST%09Clipperton Island Standard Time%09UTC%E2%88%9208</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CKT%09Cook Island Time%09UTC%E2%88%9210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLST%09Chile Summer Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLT%09Chile Standard Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COST%09Colombia Summer Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COT%09Colombia Time%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST%09Central Standard Time %28North America%29%09UTC%E2%88%9206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST%09China Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST%09Cuba Standard Time%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT%09Central Time%09UTC%E2%88%9206%2FUTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVT%09Cape Verde Time%09UTC%E2%88%9201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWST Central Western Standard Time %28Australia%29 unofficial%09UTC%2B08%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CXT%09Christmas Island Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAVT Davis Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDUT Dumont d%27Urville Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFT%09AIX-specific equivalent of Central European Time UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EASST Easter Island Summer Time UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAST Easter Island Standard Time UTC%E2%88%9206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EAT%09East Africa Time UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECT%09Eastern Caribbean Time %28does not recognise DST%29 UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECT%09Ecuador Time%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDT%09Eastern Daylight Time %28North America%29%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EEST Eastern European Summer Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EET%09Eastern European Time%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EGST Eastern Greenland Summer Time UTC%C2%B100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EGT%09Eastern Greenland Time%09UTC%E2%88%9201</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST%09Eastern Standard Time %28North America%29%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ET Eastern Time %28North America%29%09UTC%E2%88%9205 %2F UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FET%09Further-eastern European Time UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FJT%09Fiji Time UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FKST Falkland Islands Summer Time UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FKT%09Falkland Islands Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FNT%09Fernando de Noronha Time UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GALT Galápagos Time UTC%E2%88%9206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GAMT Gambier Islands Time%09UTC%E2%88%9209</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GET%09Georgia Standard Time UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GFT%09French Guiana Time UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GILT Gilbert Island Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GIT%09Gambier Island Time UTC%E2%88%9209</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GMT Greenwich Mean Time%09UTC%C2%B100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST%09Gulf Standard Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST%09South Georgia and the South Sandwich Islands Time UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GYT%09Guyana Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAEC Heure Avancée d%27Europe Centrale French-language name for CEST%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HDT%09Hawaii%E2%80%93Aleutian Daylight Time%09UTC%E2%88%9209</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HKT%09Hong Kong Time UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HMT Heard and McDonald Islands Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOVST Hovd Summer Time %28not used from 2017-present%29%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOVT Hovd Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HST%09Hawaii%E2%80%93Aleutian Standard Time UTC%E2%88%9210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT%09Indochina Time UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDLW International Day Line West time zone%09UTC%E2%88%9212</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDT%09Israel Daylight Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IOT%09Indian Ocean Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRDT Iran Daylight Time%09UTC%2B04%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRKT Irkutsk Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRST Iran Standard Time UTC%2B03%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IST Indian Standard Time UTC%2B05%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IST%09Irish Standard Time%5B8%5D UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IST%09Israel Standard Time UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JST%09Japan Standard Time UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KALT Kaliningrad Time UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KGT%09Kyrgyzstan Time UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KOST Kosrae Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KRAT Krasnoyarsk Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KST%09Korea Standard Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LHST Lord Howe Standard Time%09UTC%2B10%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LHST Lord Howe Summer Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LINT Line Islands Time%09UTC%2B14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGT Magadan Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MART Marquesas Islands Time%09UTC%E2%88%9209%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAWT Mawson Station Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDT%09Mountain Daylight Time %28North America%29%09UTC%E2%88%9206</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEST%09Middle European Summer Time %28same zone as CEST%29%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MET%09Middle European Time %28same zone as CET%29%09UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MHT%09Marshall Islands Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIST%09Macquarie Island Station Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIT%09Marquesas Islands Time%09UTC%E2%88%9209%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMT%09Myanmar Standard Time%09UTC%2B06%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSK%09Moscow Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MST%09Malaysia Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MST%09Mountain Standard Time %28North America%29%09UTC%E2%88%9207</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUT%09Mauritius Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MVT%09Maldives Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MYT%09Malaysia Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NCT%09New Caledonia Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDT%09Newfoundland Daylight Time%09UTC%E2%88%9202%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFT%09Norfolk Island Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVT%09Novosibirsk Time %5B9%5D%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPT%09Nepal Time%09UTC%2B05%3A45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NST%09Newfoundland Standard Time%09UTC%E2%88%9203%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT%09Newfoundland Time%09UTC%E2%88%9203%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUT%09Niue Time%09UTC%E2%88%9211</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZDT%09New Zealand Daylight Time%09UTC%2B13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZST%09New Zealand Standard Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMST%09Omsk Time%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORAT%09Oral Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDT%09Pacific Daylight Time %28North America%29%09UTC%E2%88%9207</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PET%09Peru Time%09UTC%E2%88%9205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETT%09Kamchatka Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PGT%09Papua New Guinea Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHOT%09Phoenix Island Time%09UTC%2B13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHST%09Philippine Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHT%09Philippine Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PKT%09Pakistan Standard Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMDT%09Saint Pierre and Miquelon Daylight Time%09UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMST%09Saint Pierre and Miquelon Standard Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PONT%09Pohnpei Standard Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PST%09Pacific Standard Time %28North America%29%09UTC%E2%88%9208</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PWT%09Palau Time%5B10%5D%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PYST%09Paraguay Summer Time%5B11%5D%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PYT%09Paraguay Time%5B12%5D%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RET%09Réunion Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROTT%09Rothera Research Station Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAKT%09Sakhalin Island Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAMT%09Samara Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAST%09South African Standard Time%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SBT%09Solomon Islands Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCT%09Seychelles Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDT%09Samoa Daylight Time%09UTC%E2%88%9210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGT%09Singapore Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLST%09Sri Lanka Standard Time%09UTC%2B05%3A30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRET%09Srednekolymsk Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRT%09Suriname Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SST%09Samoa Standard Time%09UTC%E2%88%9211</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SST%09Singapore Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SYOT%09Showa Station Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAHT%09Tahiti Time%09UTC%E2%88%9210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TFT%09French Southern and Antarctic Time%5B13%5D%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THA%09Thailand Standard Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJT%09Tajikistan Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TKT%09Tokelau Time%09UTC%2B13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TLT%09Timor Leste Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TMT%09Turkmenistan Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOT%09Tonga Time%09UTC%2B13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRT%09Turkey Time%09UTC%2B03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TVT%09Tuvalu Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ULAST%09Ulaanbaatar Summer Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ULAT%09Ulaanbaatar Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UTC%09Coordinated Universal Time%09UTC%C2%B100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UYST%09Uruguay Summer Time%09UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UYT%09Uruguay Standard Time%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UZT%09Uzbekistan Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VET%09Venezuelan Standard Time%09UTC%E2%88%9204</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLAT%09Vladivostok Time%09UTC%2B10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLT%09Volgograd Time%09UTC%2B04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOST%09Vostok Station Time%09UTC%2B06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VUT%09Vanuatu Time%09UTC%2B11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAKT%09Wake Island Time%09UTC%2B12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAST%09West Africa Summer Time%09UTC%2B02</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAT%09West Africa Time%09UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEST%09Western European Summer Time%09UTC%2B01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WET%09Western European Time%09UTC%C2%B100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WGST%09West Greenland Summer Time%5B14%5D%09UTC%E2%88%9202</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WGT%09West Greenland Time%5B15%5D%09UTC%E2%88%9203</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WIB%09Western Indonesian Time%09UTC%2B07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WIT%09Eastern Indonesian Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WITA%09Central Indonesia Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WST%09Western Standard Time%09UTC%2B08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YAKT%09Yakutsk Time%09UTC%2B09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YEKT%09Yekaterinburg Time%09UTC%2B05</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Channel Partner %2F Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer - Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer - Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UpsellOpportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

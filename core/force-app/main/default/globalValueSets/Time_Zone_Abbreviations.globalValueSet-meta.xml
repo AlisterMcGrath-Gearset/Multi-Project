@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACDT	Australian Central Daylight Saving Time	UTC+10:30</fullName>
+        <default>false</default>
+        <label>ACDT	Australian Central Daylight Saving Time	UTC+10:30</label>
+    </customValue>
+    <customValue>
+        <fullName>ACST	Australian Central Standard Time	UTC+09:30</fullName>
+        <default>false</default>
+        <label>ACST	Australian Central Standard Time	UTC+09:30</label>
+    </customValue>
+    <customValue>
+        <fullName>ACT	Acre Time	UTC−05</fullName>
+        <default>false</default>
+        <label>ACT	Acre Time	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>ACT	ASEAN Common Time (proposed)	UTC+08:00</fullName>
+        <default>false</default>
+        <label>ACT	ASEAN Common Time (proposed)	UTC+08:00</label>
+    </customValue>
+    <customValue>
+        <fullName>ACWST	Australian Central Western Standard Time (unofficial)	UTC+08:45</fullName>
+        <default>false</default>
+        <label>ACWST	Australian Central Western Standard Time (unofficial)	UTC+08:45</label>
+    </customValue>
+    <customValue>
+        <fullName>ADT	Atlantic Daylight Time	UTC−03</fullName>
+        <default>false</default>
+        <label>ADT	Atlantic Daylight Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>AEDT	Australian Eastern Daylight Saving Time	UTC+11</fullName>
+        <default>false</default>
+        <label>AEDT	Australian Eastern Daylight Saving Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>AEST	Australian Eastern Standard Time	UTC+10</fullName>
+        <default>false</default>
+        <label>AEST	Australian Eastern Standard Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>AET	Australian Eastern Time	UTC+10/UTC+11</fullName>
+        <default>false</default>
+        <label>AET	Australian Eastern Time	UTC+10/UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>AFT	Afghanistan Time	UTC+04:30</fullName>
+        <default>false</default>
+        <label>AFT	Afghanistan Time	UTC+04:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AKDT	Alaska Daylight Time	UTC−08</fullName>
+        <default>false</default>
+        <label>AKDT	Alaska Daylight Time	UTC−08</label>
+    </customValue>
+    <customValue>
+        <fullName>AKST	Alaska Standard Time	UTC−09</fullName>
+        <default>false</default>
+        <label>AKST	Alaska Standard Time	UTC−09</label>
+    </customValue>
+    <customValue>
+        <fullName>ALMT	Alma-Ata Time[1]	UTC+06</fullName>
+        <default>false</default>
+        <label>ALMT	Alma-Ata Time[1]	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>AMST	Amazon Summer Time (Brazil)[2]	UTC−03</fullName>
+        <default>false</default>
+        <label>AMST	Amazon Summer Time (Brazil)[2]	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>AMT	Amazon Time (Brazil)[3]	UTC−04</fullName>
+        <default>false</default>
+        <label>AMT	Amazon Time (Brazil)[3]	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>AMT	Armenia Time	UTC+04</fullName>
+        <default>false</default>
+        <label>AMT	Armenia Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>ANAT	Anadyr Time[4]	UTC+12</fullName>
+        <default>false</default>
+        <label>ANAT	Anadyr Time[4]	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>AQTT	Aqtobe Time[5]	UTC+05</fullName>
+        <default>false</default>
+        <label>AQTT	Aqtobe Time[5]	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>ART	Argentina Time	UTC−03</fullName>
+        <default>false</default>
+        <label>ART	Argentina Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>AST	Arabia Standard Time	UTC+03</fullName>
+        <default>false</default>
+        <label>AST	Arabia Standard Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>AST	Atlantic Standard Time	UTC−04</fullName>
+        <default>false</default>
+        <label>AST	Atlantic Standard Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>AWST	Australian Western Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>AWST	Australian Western Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>AZOST	Azores Summer Time	UTC±00</fullName>
+        <default>false</default>
+        <label>AZOST	Azores Summer Time	UTC±00</label>
+    </customValue>
+    <customValue>
+        <fullName>AZOT	Azores Standard Time	UTC−01</fullName>
+        <default>false</default>
+        <label>AZOT	Azores Standard Time	UTC−01</label>
+    </customValue>
+    <customValue>
+        <fullName>AZT	Azerbaijan Time	UTC+04</fullName>
+        <default>false</default>
+        <label>AZT	Azerbaijan Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>BNT	Brunei Time	UTC+08</fullName>
+        <default>false</default>
+        <label>BNT	Brunei Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>BIOT	British Indian Ocean Time	UTC+06</fullName>
+        <default>false</default>
+        <label>BIOT	British Indian Ocean Time	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>BIT	Baker Island Time	UTC−12</fullName>
+        <default>false</default>
+        <label>BIT	Baker Island Time	UTC−12</label>
+    </customValue>
+    <customValue>
+        <fullName>BOT	Bolivia Time	UTC−04</fullName>
+        <default>false</default>
+        <label>BOT	Bolivia Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>BRST	Brasília Summer Time	UTC−02</fullName>
+        <default>false</default>
+        <label>BRST	Brasília Summer Time	UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>BRT	Brasília Time	UTC−03</fullName>
+        <default>false</default>
+        <label>BRT	Brasília Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>BST	Bangladesh Standard Time	UTC+06</fullName>
+        <default>false</default>
+        <label>BST	Bangladesh Standard Time	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>BST	Bougainville Standard Time[6]	UTC+11</fullName>
+        <default>false</default>
+        <label>BST	Bougainville Standard Time[6]	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>BST	British Summer Time (British Standard Time from Feb 1968 to Oct 1971)	UTC+01</fullName>
+        <default>false</default>
+        <label>BST	British Summer Time (British Standard Time from Feb 1968 to Oct 1971)	UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>BTT	Bhutan Time	UTC+06</fullName>
+        <default>false</default>
+        <label>BTT	Bhutan Time	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>CAT	Central Africa Time	UTC+02</fullName>
+        <default>false</default>
+        <label>CAT	Central Africa Time	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>CCT	Cocos Islands Time	UTC+06:30</fullName>
+        <default>false</default>
+        <label>CCT	Cocos Islands Time	UTC+06:30</label>
+    </customValue>
+    <customValue>
+        <fullName>CDT	Central Daylight Time (North America)	UTC−05</fullName>
+        <default>false</default>
+        <label>CDT	Central Daylight Time (North America)	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>CDT	Cuba Daylight Time[7]	UTC−04</fullName>
+        <default>false</default>
+        <label>CDT	Cuba Daylight Time[7]	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>CEST	Central European Summer Time	UTC+02</fullName>
+        <default>false</default>
+        <label>CEST	Central European Summer Time	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>CET	Central European Time	UTC+01</fullName>
+        <default>false</default>
+        <label>CET	Central European Time	UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>CHADT	Chatham Daylight Time	UTC+13:45</fullName>
+        <default>false</default>
+        <label>CHADT	Chatham Daylight Time	UTC+13:45</label>
+    </customValue>
+    <customValue>
+        <fullName>CHAST	Chatham Standard Time	UTC+12:45</fullName>
+        <default>false</default>
+        <label>CHAST	Chatham Standard Time	UTC+12:45</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOT	Choibalsan Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>CHOT	Choibalsan Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOST	Choibalsan Summer Time	UTC+09</fullName>
+        <default>false</default>
+        <label>CHOST	Choibalsan Summer Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>CHST	Chamorro Standard Time	UTC+10</fullName>
+        <default>false</default>
+        <label>CHST	Chamorro Standard Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>CHUT	Chuuk Time	UTC+10</fullName>
+        <default>false</default>
+        <label>CHUT	Chuuk Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>CIST	Clipperton Island Standard Time	UTC−08</fullName>
+        <default>false</default>
+        <label>CIST	Clipperton Island Standard Time	UTC−08</label>
+    </customValue>
+    <customValue>
+        <fullName>CKT	Cook Island Time	UTC−10</fullName>
+        <default>false</default>
+        <label>CKT	Cook Island Time	UTC−10</label>
+    </customValue>
+    <customValue>
+        <fullName>CLST	Chile Summer Time	UTC−03</fullName>
+        <default>false</default>
+        <label>CLST	Chile Summer Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>CLT	Chile Standard Time	UTC−04</fullName>
+        <default>false</default>
+        <label>CLT	Chile Standard Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>COST	Colombia Summer Time	UTC−04</fullName>
+        <default>false</default>
+        <label>COST	Colombia Summer Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>COT	Colombia Time	UTC−05</fullName>
+        <default>false</default>
+        <label>COT	Colombia Time	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>CST	Central Standard Time (North America)	UTC−06</fullName>
+        <default>false</default>
+        <label>CST	Central Standard Time (North America)	UTC−06</label>
+    </customValue>
+    <customValue>
+        <fullName>CST	China Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>CST	China Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>CST	Cuba Standard Time	UTC−05</fullName>
+        <default>false</default>
+        <label>CST	Cuba Standard Time	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>CT	Central Time	UTC−06/UTC−05</fullName>
+        <default>false</default>
+        <label>CT	Central Time	UTC−06/UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>CVT	Cape Verde Time	UTC−01</fullName>
+        <default>false</default>
+        <label>CVT	Cape Verde Time	UTC−01</label>
+    </customValue>
+    <customValue>
+        <fullName>CWST Central Western Standard Time (Australia) unofficial	UTC+08:45</fullName>
+        <default>false</default>
+        <label>CWST Central Western Standard Time (Australia) unofficial	UTC+08:45</label>
+    </customValue>
+    <customValue>
+        <fullName>CXT	Christmas Island Time	UTC+07</fullName>
+        <default>false</default>
+        <label>CXT	Christmas Island Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>DAVT Davis Time	UTC+07</fullName>
+        <default>false</default>
+        <label>DAVT Davis Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>DDUT Dumont d&apos;Urville Time	UTC+10</fullName>
+        <default>false</default>
+        <label>DDUT Dumont d&apos;Urville Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>DFT	AIX-specific equivalent of Central European Time UTC+01</fullName>
+        <default>false</default>
+        <label>DFT	AIX-specific equivalent of Central European Time UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>EASST Easter Island Summer Time UTC−05</fullName>
+        <default>false</default>
+        <label>EASST Easter Island Summer Time UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>EAST Easter Island Standard Time UTC−06</fullName>
+        <default>false</default>
+        <label>EAST Easter Island Standard Time UTC−06</label>
+    </customValue>
+    <customValue>
+        <fullName>EAT	East Africa Time UTC+03</fullName>
+        <default>false</default>
+        <label>EAT	East Africa Time UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>ECT	Eastern Caribbean Time (does not recognise DST) UTC−04</fullName>
+        <default>false</default>
+        <label>ECT	Eastern Caribbean Time (does not recognise DST) UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>ECT	Ecuador Time	UTC−05</fullName>
+        <default>false</default>
+        <label>ECT	Ecuador Time	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>EDT	Eastern Daylight Time (North America)	UTC−04</fullName>
+        <default>false</default>
+        <label>EDT	Eastern Daylight Time (North America)	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>EEST Eastern European Summer Time	UTC+03</fullName>
+        <default>false</default>
+        <label>EEST Eastern European Summer Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>EET	Eastern European Time	UTC+02</fullName>
+        <default>false</default>
+        <label>EET	Eastern European Time	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>EGST Eastern Greenland Summer Time UTC±00</fullName>
+        <default>false</default>
+        <label>EGST Eastern Greenland Summer Time UTC±00</label>
+    </customValue>
+    <customValue>
+        <fullName>EGT	Eastern Greenland Time	UTC−01</fullName>
+        <default>false</default>
+        <label>EGT	Eastern Greenland Time	UTC−01</label>
+    </customValue>
+    <customValue>
+        <fullName>EST	Eastern Standard Time (North America)	UTC−05</fullName>
+        <default>false</default>
+        <label>EST	Eastern Standard Time (North America)	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>ET Eastern Time (North America)	UTC−05 / UTC−04</fullName>
+        <default>false</default>
+        <label>ET Eastern Time (North America)	UTC−05 / UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>FET	Further-eastern European Time UTC+03</fullName>
+        <default>false</default>
+        <label>FET	Further-eastern European Time UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>FJT	Fiji Time UTC+12</fullName>
+        <default>false</default>
+        <label>FJT	Fiji Time UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>FKST Falkland Islands Summer Time UTC−03</fullName>
+        <default>false</default>
+        <label>FKST Falkland Islands Summer Time UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>FKT	Falkland Islands Time	UTC−04</fullName>
+        <default>false</default>
+        <label>FKT	Falkland Islands Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>FNT	Fernando de Noronha Time UTC−02</fullName>
+        <default>false</default>
+        <label>FNT	Fernando de Noronha Time UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>GALT Galápagos Time UTC−06</fullName>
+        <default>false</default>
+        <label>GALT Galápagos Time UTC−06</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMT Gambier Islands Time	UTC−09</fullName>
+        <default>false</default>
+        <label>GAMT Gambier Islands Time	UTC−09</label>
+    </customValue>
+    <customValue>
+        <fullName>GET	Georgia Standard Time UTC+04</fullName>
+        <default>false</default>
+        <label>GET	Georgia Standard Time UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>GFT	French Guiana Time UTC−03</fullName>
+        <default>false</default>
+        <label>GFT	French Guiana Time UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>GILT Gilbert Island Time	UTC+12</fullName>
+        <default>false</default>
+        <label>GILT Gilbert Island Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>GIT	Gambier Island Time UTC−09</fullName>
+        <default>false</default>
+        <label>GIT	Gambier Island Time UTC−09</label>
+    </customValue>
+    <customValue>
+        <fullName>GMT Greenwich Mean Time	UTC±00</fullName>
+        <default>false</default>
+        <label>GMT Greenwich Mean Time	UTC±00</label>
+    </customValue>
+    <customValue>
+        <fullName>GST	South Georgia and the South Sandwich Islands Time UTC−02</fullName>
+        <default>false</default>
+        <label>GST	South Georgia and the South Sandwich Islands Time UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>GST	Gulf Standard Time	UTC+04</fullName>
+        <default>false</default>
+        <label>GST	Gulf Standard Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>GYT	Guyana Time	UTC−04</fullName>
+        <default>false</default>
+        <label>GYT	Guyana Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>HDT	Hawaii–Aleutian Daylight Time	UTC−09</fullName>
+        <default>false</default>
+        <label>HDT	Hawaii–Aleutian Daylight Time	UTC−09</label>
+    </customValue>
+    <customValue>
+        <fullName>HAEC Heure Avancée d&apos;Europe Centrale French-language name for CEST	UTC+02</fullName>
+        <default>false</default>
+        <label>HAEC Heure Avancée d&apos;Europe Centrale French-language name for CEST	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>HST	Hawaii–Aleutian Standard Time UTC−10</fullName>
+        <default>false</default>
+        <label>HST	Hawaii–Aleutian Standard Time UTC−10</label>
+    </customValue>
+    <customValue>
+        <fullName>HKT	Hong Kong Time UTC+08</fullName>
+        <default>false</default>
+        <label>HKT	Hong Kong Time UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>HMT Heard and McDonald Islands Time	UTC+05</fullName>
+        <default>false</default>
+        <label>HMT Heard and McDonald Islands Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>HOVST Hovd Summer Time (not used from 2017-present)	UTC+08</fullName>
+        <default>false</default>
+        <label>HOVST Hovd Summer Time (not used from 2017-present)	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>HOVT Hovd Time	UTC+07</fullName>
+        <default>false</default>
+        <label>HOVT Hovd Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>ICT	Indochina Time UTC+07</fullName>
+        <default>false</default>
+        <label>ICT	Indochina Time UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>IDLW International Day Line West time zone	UTC−12</fullName>
+        <default>false</default>
+        <label>IDLW International Day Line West time zone	UTC−12</label>
+    </customValue>
+    <customValue>
+        <fullName>IDT	Israel Daylight Time	UTC+03</fullName>
+        <default>false</default>
+        <label>IDT	Israel Daylight Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>IOT	Indian Ocean Time	UTC+03</fullName>
+        <default>false</default>
+        <label>IOT	Indian Ocean Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>IRDT Iran Daylight Time	UTC+04:30</fullName>
+        <default>false</default>
+        <label>IRDT Iran Daylight Time	UTC+04:30</label>
+    </customValue>
+    <customValue>
+        <fullName>IRKT Irkutsk Time	UTC+08</fullName>
+        <default>false</default>
+        <label>IRKT Irkutsk Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>IRST Iran Standard Time UTC+03:30</fullName>
+        <default>false</default>
+        <label>IRST Iran Standard Time UTC+03:30</label>
+    </customValue>
+    <customValue>
+        <fullName>IST Indian Standard Time UTC+05:30</fullName>
+        <default>false</default>
+        <label>IST Indian Standard Time UTC+05:30</label>
+    </customValue>
+    <customValue>
+        <fullName>IST	Irish Standard Time[8] UTC+01</fullName>
+        <default>false</default>
+        <label>IST	Irish Standard Time[8] UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>IST	Israel Standard Time UTC+02</fullName>
+        <default>false</default>
+        <label>IST	Israel Standard Time UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>JST	Japan Standard Time UTC+09</fullName>
+        <default>false</default>
+        <label>JST	Japan Standard Time UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>KALT Kaliningrad Time UTC+02</fullName>
+        <default>false</default>
+        <label>KALT Kaliningrad Time UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>KGT	Kyrgyzstan Time UTC+06</fullName>
+        <default>false</default>
+        <label>KGT	Kyrgyzstan Time UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>KOST Kosrae Time	UTC+11</fullName>
+        <default>false</default>
+        <label>KOST Kosrae Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>KRAT Krasnoyarsk Time	UTC+07</fullName>
+        <default>false</default>
+        <label>KRAT Krasnoyarsk Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>KST	Korea Standard Time	UTC+09</fullName>
+        <default>false</default>
+        <label>KST	Korea Standard Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>LHST Lord Howe Standard Time	UTC+10:30</fullName>
+        <default>false</default>
+        <label>LHST Lord Howe Standard Time	UTC+10:30</label>
+    </customValue>
+    <customValue>
+        <fullName>LHST Lord Howe Summer Time	UTC+11</fullName>
+        <default>false</default>
+        <label>LHST Lord Howe Summer Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>LINT Line Islands Time	UTC+14</fullName>
+        <default>false</default>
+        <label>LINT Line Islands Time	UTC+14</label>
+    </customValue>
+    <customValue>
+        <fullName>MAGT Magadan Time	UTC+12</fullName>
+        <default>false</default>
+        <label>MAGT Magadan Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>MART Marquesas Islands Time	UTC−09:30</fullName>
+        <default>false</default>
+        <label>MART Marquesas Islands Time	UTC−09:30</label>
+    </customValue>
+    <customValue>
+        <fullName>MAWT Mawson Station Time	UTC+05</fullName>
+        <default>false</default>
+        <label>MAWT Mawson Station Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>MDT	Mountain Daylight Time (North America)	UTC−06</fullName>
+        <default>false</default>
+        <label>MDT	Mountain Daylight Time (North America)	UTC−06</label>
+    </customValue>
+    <customValue>
+        <fullName>MET	Middle European Time (same zone as CET)	UTC+01</fullName>
+        <default>false</default>
+        <label>MET	Middle European Time (same zone as CET)	UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>MEST	Middle European Summer Time (same zone as CEST)	UTC+02</fullName>
+        <default>false</default>
+        <label>MEST	Middle European Summer Time (same zone as CEST)	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>MHT	Marshall Islands Time	UTC+12</fullName>
+        <default>false</default>
+        <label>MHT	Marshall Islands Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>MIST	Macquarie Island Station Time	UTC+11</fullName>
+        <default>false</default>
+        <label>MIST	Macquarie Island Station Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>MIT	Marquesas Islands Time	UTC−09:30</fullName>
+        <default>false</default>
+        <label>MIT	Marquesas Islands Time	UTC−09:30</label>
+    </customValue>
+    <customValue>
+        <fullName>MMT	Myanmar Standard Time	UTC+06:30</fullName>
+        <default>false</default>
+        <label>MMT	Myanmar Standard Time	UTC+06:30</label>
+    </customValue>
+    <customValue>
+        <fullName>MSK	Moscow Time	UTC+03</fullName>
+        <default>false</default>
+        <label>MSK	Moscow Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>MST	Malaysia Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>MST	Malaysia Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>MST	Mountain Standard Time (North America)	UTC−07</fullName>
+        <default>false</default>
+        <label>MST	Mountain Standard Time (North America)	UTC−07</label>
+    </customValue>
+    <customValue>
+        <fullName>MUT	Mauritius Time	UTC+04</fullName>
+        <default>false</default>
+        <label>MUT	Mauritius Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>MVT	Maldives Time	UTC+05</fullName>
+        <default>false</default>
+        <label>MVT	Maldives Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>MYT	Malaysia Time	UTC+08</fullName>
+        <default>false</default>
+        <label>MYT	Malaysia Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>NCT	New Caledonia Time	UTC+11</fullName>
+        <default>false</default>
+        <label>NCT	New Caledonia Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>NDT	Newfoundland Daylight Time	UTC−02:30</fullName>
+        <default>false</default>
+        <label>NDT	Newfoundland Daylight Time	UTC−02:30</label>
+    </customValue>
+    <customValue>
+        <fullName>NFT	Norfolk Island Time	UTC+11</fullName>
+        <default>false</default>
+        <label>NFT	Norfolk Island Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>NOVT	Novosibirsk Time [9]	UTC+07</fullName>
+        <default>false</default>
+        <label>NOVT	Novosibirsk Time [9]	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>NPT	Nepal Time	UTC+05:45</fullName>
+        <default>false</default>
+        <label>NPT	Nepal Time	UTC+05:45</label>
+    </customValue>
+    <customValue>
+        <fullName>NST	Newfoundland Standard Time	UTC−03:30</fullName>
+        <default>false</default>
+        <label>NST	Newfoundland Standard Time	UTC−03:30</label>
+    </customValue>
+    <customValue>
+        <fullName>NT	Newfoundland Time	UTC−03:30</fullName>
+        <default>false</default>
+        <label>NT	Newfoundland Time	UTC−03:30</label>
+    </customValue>
+    <customValue>
+        <fullName>NUT	Niue Time	UTC−11</fullName>
+        <default>false</default>
+        <label>NUT	Niue Time	UTC−11</label>
+    </customValue>
+    <customValue>
+        <fullName>NZDT	New Zealand Daylight Time	UTC+13</fullName>
+        <default>false</default>
+        <label>NZDT	New Zealand Daylight Time	UTC+13</label>
+    </customValue>
+    <customValue>
+        <fullName>NZST	New Zealand Standard Time	UTC+12</fullName>
+        <default>false</default>
+        <label>NZST	New Zealand Standard Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>OMST	Omsk Time	UTC+06</fullName>
+        <default>false</default>
+        <label>OMST	Omsk Time	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>ORAT	Oral Time	UTC+05</fullName>
+        <default>false</default>
+        <label>ORAT	Oral Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>PDT	Pacific Daylight Time (North America)	UTC−07</fullName>
+        <default>false</default>
+        <label>PDT	Pacific Daylight Time (North America)	UTC−07</label>
+    </customValue>
+    <customValue>
+        <fullName>PET	Peru Time	UTC−05</fullName>
+        <default>false</default>
+        <label>PET	Peru Time	UTC−05</label>
+    </customValue>
+    <customValue>
+        <fullName>PETT	Kamchatka Time	UTC+12</fullName>
+        <default>false</default>
+        <label>PETT	Kamchatka Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>PGT	Papua New Guinea Time	UTC+10</fullName>
+        <default>false</default>
+        <label>PGT	Papua New Guinea Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>PHOT	Phoenix Island Time	UTC+13</fullName>
+        <default>false</default>
+        <label>PHOT	Phoenix Island Time	UTC+13</label>
+    </customValue>
+    <customValue>
+        <fullName>PHT	Philippine Time	UTC+08</fullName>
+        <default>false</default>
+        <label>PHT	Philippine Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>PHST	Philippine Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>PHST	Philippine Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>PKT	Pakistan Standard Time	UTC+05</fullName>
+        <default>false</default>
+        <label>PKT	Pakistan Standard Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>PMDT	Saint Pierre and Miquelon Daylight Time	UTC−02</fullName>
+        <default>false</default>
+        <label>PMDT	Saint Pierre and Miquelon Daylight Time	UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>PMST	Saint Pierre and Miquelon Standard Time	UTC−03</fullName>
+        <default>false</default>
+        <label>PMST	Saint Pierre and Miquelon Standard Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>PONT	Pohnpei Standard Time	UTC+11</fullName>
+        <default>false</default>
+        <label>PONT	Pohnpei Standard Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>PST	Pacific Standard Time (North America)	UTC−08</fullName>
+        <default>false</default>
+        <label>PST	Pacific Standard Time (North America)	UTC−08</label>
+    </customValue>
+    <customValue>
+        <fullName>PWT	Palau Time[10]	UTC+09</fullName>
+        <default>false</default>
+        <label>PWT	Palau Time[10]	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>PYST	Paraguay Summer Time[11]	UTC−03</fullName>
+        <default>false</default>
+        <label>PYST	Paraguay Summer Time[11]	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>PYT	Paraguay Time[12]	UTC−04</fullName>
+        <default>false</default>
+        <label>PYT	Paraguay Time[12]	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>RET	Réunion Time	UTC+04</fullName>
+        <default>false</default>
+        <label>RET	Réunion Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>ROTT	Rothera Research Station Time	UTC−03</fullName>
+        <default>false</default>
+        <label>ROTT	Rothera Research Station Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>SAKT	Sakhalin Island Time	UTC+11</fullName>
+        <default>false</default>
+        <label>SAKT	Sakhalin Island Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>SAMT	Samara Time	UTC+04</fullName>
+        <default>false</default>
+        <label>SAMT	Samara Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>SAST	South African Standard Time	UTC+02</fullName>
+        <default>false</default>
+        <label>SAST	South African Standard Time	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>SBT	Solomon Islands Time	UTC+11</fullName>
+        <default>false</default>
+        <label>SBT	Solomon Islands Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>SCT	Seychelles Time	UTC+04</fullName>
+        <default>false</default>
+        <label>SCT	Seychelles Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>SDT	Samoa Daylight Time	UTC−10</fullName>
+        <default>false</default>
+        <label>SDT	Samoa Daylight Time	UTC−10</label>
+    </customValue>
+    <customValue>
+        <fullName>SGT	Singapore Time	UTC+08</fullName>
+        <default>false</default>
+        <label>SGT	Singapore Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>SLST	Sri Lanka Standard Time	UTC+05:30</fullName>
+        <default>false</default>
+        <label>SLST	Sri Lanka Standard Time	UTC+05:30</label>
+    </customValue>
+    <customValue>
+        <fullName>SRET	Srednekolymsk Time	UTC+11</fullName>
+        <default>false</default>
+        <label>SRET	Srednekolymsk Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>SRT	Suriname Time	UTC−03</fullName>
+        <default>false</default>
+        <label>SRT	Suriname Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>SST	Samoa Standard Time	UTC−11</fullName>
+        <default>false</default>
+        <label>SST	Samoa Standard Time	UTC−11</label>
+    </customValue>
+    <customValue>
+        <fullName>SST	Singapore Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>SST	Singapore Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>SYOT	Showa Station Time	UTC+03</fullName>
+        <default>false</default>
+        <label>SYOT	Showa Station Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>TAHT	Tahiti Time	UTC−10</fullName>
+        <default>false</default>
+        <label>TAHT	Tahiti Time	UTC−10</label>
+    </customValue>
+    <customValue>
+        <fullName>THA	Thailand Standard Time	UTC+07</fullName>
+        <default>false</default>
+        <label>THA	Thailand Standard Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>TFT	French Southern and Antarctic Time[13]	UTC+05</fullName>
+        <default>false</default>
+        <label>TFT	French Southern and Antarctic Time[13]	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>TJT	Tajikistan Time	UTC+05</fullName>
+        <default>false</default>
+        <label>TJT	Tajikistan Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>TKT	Tokelau Time	UTC+13</fullName>
+        <default>false</default>
+        <label>TKT	Tokelau Time	UTC+13</label>
+    </customValue>
+    <customValue>
+        <fullName>TLT	Timor Leste Time	UTC+09</fullName>
+        <default>false</default>
+        <label>TLT	Timor Leste Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>TMT	Turkmenistan Time	UTC+05</fullName>
+        <default>false</default>
+        <label>TMT	Turkmenistan Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>TRT	Turkey Time	UTC+03</fullName>
+        <default>false</default>
+        <label>TRT	Turkey Time	UTC+03</label>
+    </customValue>
+    <customValue>
+        <fullName>TOT	Tonga Time	UTC+13</fullName>
+        <default>false</default>
+        <label>TOT	Tonga Time	UTC+13</label>
+    </customValue>
+    <customValue>
+        <fullName>TVT	Tuvalu Time	UTC+12</fullName>
+        <default>false</default>
+        <label>TVT	Tuvalu Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>ULAST	Ulaanbaatar Summer Time	UTC+09</fullName>
+        <default>false</default>
+        <label>ULAST	Ulaanbaatar Summer Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>ULAT	Ulaanbaatar Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>ULAT	Ulaanbaatar Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>UTC	Coordinated Universal Time	UTC±00</fullName>
+        <default>false</default>
+        <label>UTC	Coordinated Universal Time	UTC±00</label>
+    </customValue>
+    <customValue>
+        <fullName>UYST	Uruguay Summer Time	UTC−02</fullName>
+        <default>false</default>
+        <label>UYST	Uruguay Summer Time	UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>UYT	Uruguay Standard Time	UTC−03</fullName>
+        <default>false</default>
+        <label>UYT	Uruguay Standard Time	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>UZT	Uzbekistan Time	UTC+05</fullName>
+        <default>false</default>
+        <label>UZT	Uzbekistan Time	UTC+05</label>
+    </customValue>
+    <customValue>
+        <fullName>VET	Venezuelan Standard Time	UTC−04</fullName>
+        <default>false</default>
+        <label>VET	Venezuelan Standard Time	UTC−04</label>
+    </customValue>
+    <customValue>
+        <fullName>VLAT	Vladivostok Time	UTC+10</fullName>
+        <default>false</default>
+        <label>VLAT	Vladivostok Time	UTC+10</label>
+    </customValue>
+    <customValue>
+        <fullName>VOLT	Volgograd Time	UTC+04</fullName>
+        <default>false</default>
+        <label>VOLT	Volgograd Time	UTC+04</label>
+    </customValue>
+    <customValue>
+        <fullName>VOST	Vostok Station Time	UTC+06</fullName>
+        <default>false</default>
+        <label>VOST	Vostok Station Time	UTC+06</label>
+    </customValue>
+    <customValue>
+        <fullName>VUT	Vanuatu Time	UTC+11</fullName>
+        <default>false</default>
+        <label>VUT	Vanuatu Time	UTC+11</label>
+    </customValue>
+    <customValue>
+        <fullName>WAKT	Wake Island Time	UTC+12</fullName>
+        <default>false</default>
+        <label>WAKT	Wake Island Time	UTC+12</label>
+    </customValue>
+    <customValue>
+        <fullName>WAST	West Africa Summer Time	UTC+02</fullName>
+        <default>false</default>
+        <label>WAST	West Africa Summer Time	UTC+02</label>
+    </customValue>
+    <customValue>
+        <fullName>WAT	West Africa Time	UTC+01</fullName>
+        <default>false</default>
+        <label>WAT	West Africa Time	UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>WEST	Western European Summer Time	UTC+01</fullName>
+        <default>false</default>
+        <label>WEST	Western European Summer Time	UTC+01</label>
+    </customValue>
+    <customValue>
+        <fullName>WET	Western European Time	UTC±00</fullName>
+        <default>false</default>
+        <label>WET	Western European Time	UTC±00</label>
+    </customValue>
+    <customValue>
+        <fullName>WIB	Western Indonesian Time	UTC+07</fullName>
+        <default>false</default>
+        <label>WIB	Western Indonesian Time	UTC+07</label>
+    </customValue>
+    <customValue>
+        <fullName>WIT	Eastern Indonesian Time	UTC+09</fullName>
+        <default>false</default>
+        <label>WIT	Eastern Indonesian Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>WITA	Central Indonesia Time	UTC+08</fullName>
+        <default>false</default>
+        <label>WITA	Central Indonesia Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>WGST	West Greenland Summer Time[14]	UTC−02</fullName>
+        <default>false</default>
+        <label>WGST	West Greenland Summer Time[14]	UTC−02</label>
+    </customValue>
+    <customValue>
+        <fullName>WGT	West Greenland Time[15]	UTC−03</fullName>
+        <default>false</default>
+        <label>WGT	West Greenland Time[15]	UTC−03</label>
+    </customValue>
+    <customValue>
+        <fullName>WST	Western Standard Time	UTC+08</fullName>
+        <default>false</default>
+        <label>WST	Western Standard Time	UTC+08</label>
+    </customValue>
+    <customValue>
+        <fullName>YAKT	Yakutsk Time	UTC+09</fullName>
+        <default>false</default>
+        <label>YAKT	Yakutsk Time	UTC+09</label>
+    </customValue>
+    <customValue>
+        <fullName>YEKT	Yekaterinburg Time	UTC+05</fullName>
+        <default>false</default>
+        <label>YEKT	Yekaterinburg Time	UTC+05</label>
+    </customValue>
+    <description>TMZ abbreviations with UTC offsets</description>
+    <masterLabel>Time Zone Abbreviations</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
