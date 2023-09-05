@@ -3,6 +3,6 @@
         "project A": ["core", "project A"],
         "project B": ["core", "project B"],
         "project C": ["core", "project c"],
-        "global": ["core"]
+        "primary": ["core"]
     }
 }
