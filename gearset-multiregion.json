@@ -1,8 +1,8 @@
 {
     "overlays": {
-        "india": ["core", "india"],
-        "china": ["core", "china"],
-        "singapore": ["core", "singapore"],
+        "project A": ["core", "project A"],
+        "project B": ["core", "project B"],
+        "project C": ["core", "project c"],
         "global": ["core"]
     }
 }
