@@ -2,7 +2,7 @@
     "overlays": {
         "project A": ["core", "project A"],
         "project B": ["core", "project B"],
-        "project C": ["core", "project c"],
+        "project C": ["core", "project C"],
         "primary": ["core"]
     }
 }
